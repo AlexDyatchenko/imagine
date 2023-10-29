@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Regression query</title>
+    <link
+      href="bootstrap/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+    const source = document.getElementById('NotesTextarea1');
+
+    const inputHandler = function(e) {
+      setQueryText()
+    }
+
+    source.addEventListener('input', inputHandler);
+    source.addEventListener('propertychange', inputHandler);
+
+    function setQueryText() {
+      const formData = new FormData(form);
+      let Projects = formData.get("Projects");
+      const formDataObj = {};
+      formData.forEach((value, key) => (formDataObj[key] = value));
+      let queryText = "";
+      queryText = queryText + "Project: " + formDataObj["Projects"] + "<br>";
+      queryText = queryText + "Web Repo branch: " + formDataObj["RepoBranches"] + formDataObj["SpecialBranch"] + "<br>";
+      queryText = queryText + "PHP version: " + formDataObj["PHPversion"] + "<br>";
+      queryText = queryText + "SQL database: " + formDataObj["optionsDB"] + formDataObj["optionsDBSpecialInput"]+"<br>";
+      queryText = queryText + "Access Repo Branch: " + formDataObj["DBCodeVersion"] + formDataObj["DBCodeVersionInput"] + "<br>";
+      queryText = queryText + "Browsers: " + formDataObj["Browsers"] + formDataObj["BrowsersSpecial"] + "<br>";
+      queryText = queryText + "Screen size: " + formDataObj["ScreenSize"] +  formDataObj["ScreenSizeSpecialSpecial"]+ "<br>";
+      queryText = queryText + "Notes: " + formDataObj["NotesTextarea1"];
+      
+      document.getElementById("queryTextOnScreen").innerHTML = queryText;
+      let position = queryText.search("undefined");
+      if (position == -1 ) {
+        document.getElementById("CopyTextButton").classList.remove("disabled");
+      } else {
+        document.getElementById("CopyTextButton").classList.add("disabled");
+      }      
+    }
+
+    function copyToClipboard() {
+        // Get the text field
+        var copyText = document.getElementById("queryTextOnScreen").innerHTML;
+        while (copyText.search("<br>") != -1) {
+          copyText = copyText.replace("<br>", "\n");
+        }        
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText);
+    }
+  </script>
+  <body
+    style="box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);"
+    class="h-100 text-light align-middle bg-dark"
+    onload="setQueryText()"
+    
+  >
+    <form id="form">
+      <div class="container-fluid fill main-wrapper h-100 align-middle col-10">
+        <div class="row h-100 align-middle align-items-center">
+          <div class="col h-100 align-items-center ">
+            <div class="card-body">
+              <h5 class="card-title">Request options</h5>
+
+              <div class="card-body">
+                <h6 class="card-title">Projects to test</h6>
+                <div class="d-flex align-items-center ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#0d6efd"
+                    class="bi bi-folder2 me-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5v-9zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V7z"
+                    />
+                  </svg>
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="Projects"
+                    id="MPNproject"
+                    autocomplete="off"
+                    value="only MPN project"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="MPNproject"
+                    >MPN</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="Projects"
+                    id="SLCproject"
+                    autocomplete="off"
+                    value="only SLC project"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="SLCproject"
+                    >SLC</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="Projects"
+                    id="BothProjects"
+                    autocomplete="off"
+                    value="both projects"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="BothProjects"
+                    >Both</label
+                  >
+                </div>
+              </div>
+
+              <div class="card-body" style="background-color: rgb(42, 45, 51);">
+                <h6 class="card-title">Web Repo branch to use</h6>
+                <div class="d-flex align-items-center ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#0d6efd"
+                    class="bi bi-git me-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"
+                    />
+                  </svg>
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="RepoBranches"
+                    id="MasterBranch"
+                    value="Master"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="MasterBranch"
+                    >Master</label
+                  >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="RepoBranches"
+                    id="DevBranch"
+                    value="DEV"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="DevBranch"
+                    >Dev</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="RepoBranches"
+                    id="SpecialRepoBranch"
+                    value="special: "
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="SpecialRepoBranch"
+                    >Special</label
+                  >
+                  <div class="col-4">
+                    <input
+                      type="text"
+                      class="form-control text-light"
+                      style = "background-color: black;"
+                      name = "SpecialBranch"
+                      id="SpecialBranchInput"
+                      placeholder="Branch name"
+                      onclick="setQueryText()"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card-body rounded"
+              >
+                <h6 class="card-title">PHP version</h6>
+                <div class="d-flex align-items-center ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="#0d6efd"
+                  class="bi bi-terminal-fill me-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146z"
+                  />
+                </svg>
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="PHPversion"
+                  id="PHPversion7"
+                  value="7.4.26"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="PHPversion7"
+                  >7.4.26</label
+                >
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="PHPversion"
+                  id="PHPversion8"
+                  value="8.0.1"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="PHPversion8"
+                  >8.0.1</label
+                >
+                <input
+                type="radio"
+                class="btn-check"
+                name="PHPversion"
+                id="PHPversionBoth"
+                value="8.0.1 and 7.4.26"
+                autocomplete="off"
+                onclick="setQueryText()"
+              />
+              <label class="btn btn-outline-light me-2" for="PHPversionBoth"
+                >Both</label
+              >
+              </div>
+              </div>
+
+              <div
+                class="card-body rounded"
+                style="background-color: rgb(42, 45, 51);"
+              >
+                <h6 class="card-title">SQL databases to use</h6>
+                <div class="d-flex align-items-center ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#0d6efd"
+                    class="bi bi-database me-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"
+                    />
+                  </svg>
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    value="DEVTEST"
+                    name="optionsDB"
+                    id="DevTestDB"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="DevTestDB"
+                    >DevTest</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    value="special: "
+                    name="optionsDB"
+                    id="optionsDBSpecial"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="optionsDBSpecial"
+                    >Special</label
+                  >
+                  <div class="col-4">
+                    <input
+                      type="text"
+                      class="form-control text-light"
+                      style = "background-color: black;"
+                      name = "optionsDBSpecialInput"
+                      id="optionsDBSpecialInput"
+                      placeholder="type DB version"
+                      onclick="setQueryText()"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card-body rounded"
+              >
+                <h6 class="card-title">Access Repo Branch</h6>
+                <div class="d-flex align-items-center ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="#0d6efd"
+                  class="bi bi-key me-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"
+                  />
+                  <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                </svg>
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="DBCodeVersion"
+                  id="DBCodeVersionMaster"
+                  value="Master"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="DBCodeVersionMaster">Master</label>
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="DBCodeVersion"
+                  id="DBCodeVersionDev"
+                  value="Dev"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="DBCodeVersionDev">Dev</label>
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="DBCodeVersion"
+                  id="DBCodeVersionRelese"
+                  value="Release"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="DBCodeVersionRelese">Release</label>
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="DBCodeVersion"
+                  id="DBCodeVersionSpecial"
+                  value="special: "
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="DBCodeVersionSpecial"
+                  >Special</label
+                >
+                <div class="col-4">
+                  <input
+                    type="text"
+                    class="form-control text-light"
+                    style = "background-color: black;"
+                    name = "DBCodeVersionInput"
+                    id="DBCodeVersionInput"
+                    placeholder="type access version"
+                    onclick="setQueryText()"
+                  />
+                </div>
+                </div>
+              </div>
+
+              <div
+                class="card-body rounded"
+                style="background-color: rgb(42, 45, 51);"
+              >
+                <h6 class="card-title">Browsers</h6>
+                <div class="d-flex align-items-center ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#0d6efd"
+                    class="bi bi-window me-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"
+                    />
+                    <path
+                      d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"
+                    />
+                  </svg>
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="Browsers"
+                    id="BrowserChrome"
+                    value="only Chrome"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label class="btn btn-outline-light me-2" for="BrowserChrome"
+                    >Chrome</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="Browsers"
+                    id="BrowserIE"
+                    value="Edgr\IE"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label
+                    class="btn btn-outline-light me-2"
+                    for="BrowserIE"
+                    >Edge\IE</label
+                  >
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="Browsers"
+                    id="BrowserSpecial"
+                    value="Special"
+                    autocomplete="off"
+                    onclick="setQueryText()"
+                  />
+                  <label
+                    class="btn btn-outline-light me-2"
+                    for="BrowserSpecial"
+                    >Special</label
+                  >
+                <div class="col-4">
+                  <input
+                    type="text"
+                    class="form-control text-light"
+                    style = "background-color: black;"
+                    name = "BrowsersSpecial"
+                    id="BrowsersSpecialInput"
+                    placeholder="type browsers to test"
+                    onclick="setQueryText()"
+                  />
+                </div>
+
+                </div>
+              </div>
+
+              <div class="card-body">
+                <h6 class="card-title">Screen size</h6>
+                <div class="d-flex align-items-center ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="#0d6efd"
+                  class="bi bi-phone me-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"
+                  />
+                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg>
+                                <input
+                  type="radio"
+                  class="btn-check"
+                  name="ScreenSize"
+                  id="ScreenSizeDesktop"
+                  value="desktop only"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label
+                  class="btn btn-outline-light me-2"
+                  for="ScreenSizeDesktop"
+                  >Desktop</label
+                >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="ScreenSize"
+                  id="ScreenSizeIPhone"
+                  value="Small mobile"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="ScreenSizeIPhone"
+                  >Small mobile</label
+                >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="ScreenSize"
+                  id="ScreenSizeBigMobile"
+                  value="Big mobile"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label class="btn btn-outline-light me-2" for="ScreenSizeBigMobile"
+                  >Big mobile</label
+                >
+
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="ScreenSize"
+                  id="ScreenSizeTablet"
+                  value="tablet only"
+                  autocomplete="off"
+                  onclick="setQueryText()"
+                />
+                <label
+                  class="btn btn-outline-light me-2"
+                  for="ScreenSizeTablet"
+                  >Tablet</label
+                >
+              </div>
+              <br>
+                <div class="d-flex align-items-center ">
+                  <h1 class="me-5"> </h1>
+                <input
+                type="radio"
+                class="btn-check"
+                name="ScreenSize"
+                id="ScreenSizeSpecial"
+                value="special: "
+                autocomplete="off"
+                onclick="setQueryText()"
+              />
+              <label
+                class="btn btn-outline-light me-2"
+                for="ScreenSizeSpecial"
+                >Special</label
+              >
+              <div class="col-4">
+                <input
+                  type="text"
+                  class="form-control text-light"
+                  style = "background-color: black;"
+                  name = "ScreenSizeSpecialSpecial"
+                  id="ScreenSizeSpecialInput"
+                  placeholder="type device sizes"
+                  onclick="setQueryText()"
+                />
+              </div>
+                </div>
+              </div>
+              <div
+                class="card-body rounded"
+                style="background-color: rgb(42, 45, 51);"
+              >
+                <h6 class="card-title">Notes</h6>
+                <div class="d-flex align-items-center ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="#0d6efd"
+                    class="bi bi-window me-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                    <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z"/>
+                  </svg>
+                <div class="col-10">
+                  <textarea class="form-control"
+                   id="exampleFormControlTextarea1" 
+                  rows="2"
+                  name = "NotesTextarea1"
+                  id="NotesTextarea1"
+                  class="form-control text-light"
+                  style = "background-color: black; color:white" 
+                  onchange="setQueryText()"
+                  ></textarea>
+                </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col h-100 align-middle">
+            <div class="card-body">
+              <h5 class="card-title">Request text</h5>
+              <p
+                class="card-text border border-secondary rounded text-light p-3"
+                id="queryTextOnScreen"
+              >
+                choose options to generate the request<br />
+              </p>
+              <button 
+                type="button" 
+                class="btn btn-primary disabled" 
+                id="CopyTextButton"
+                onclick="copyToClipboard()"
+                >
+                Copy text
+              </button>
+                <button type="button" class="btn btn-primary disabled">
+                    Create task in Projects
+                </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

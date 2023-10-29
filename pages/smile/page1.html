@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<script>
+    document.onreadystatechange = () => {
+        console.info("document.readyState = " + document.readyState);        
+    };
+    console.info("start ...");
+    function doSomething() {
+        console.info("DOM loaded");
+    }
+    if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", doSomething);
+} else {
+  // `DOMContentLoaded` has already fired
+  doSomething();
+}
+</script>
+<html lang="en" class="h-100">
+    <video 
+        width="100%" 
+        height="100%" 
+        autoplay="autoplay" 
+        loop="true"
+        muted>
+        <source 
+            src="webmvideo.webm" 
+            type="video/mp4"
+        />
+        Your browser does not support the video tag.
+    </video>
+</html>

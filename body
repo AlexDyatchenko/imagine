@@ -1,0 +1,20 @@
+<div class="d-inline-flex justify-content-center p-1 bd-highlight">I'm an inline flexbox container!</div>
+      <div class="d-inline-flex justify-content-center p-1 bd-highlight">I'm an inline flexbox container!</div>
+      <div class="d-inline-flex justify-content-center p-1 bd-highlight">I'm an inline flexbox container!</div>
+      <div class="d-inline-flex justify-content-center p-1 bd-highlight">I'm an inline flexbox container!</div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <include src="./video1.html">1 of 3</include>
+          </div>
+          <div class="col">
+            <include src="./video2.html">2 of 3</include>
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+        <div w3-include-html="video2.html"></div>
+        <script>
+          includeHTML();
+          </script>
