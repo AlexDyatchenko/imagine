@@ -15,9 +15,14 @@ class Page
 
     public function generate(): string
     {
-        $output = file_get_contents($this->path . '/descroption.json');
+        if (file_exists($this->path . '/description.json'))
+        {
+            $output = file_get_contents($this->path . '/description.json');            
+        } else {
+            $output = '';
+        }
         //str_replace
-        $files = $this->getListOfFiles();
+        $files = $this->getListOfFiles($this->path);
         foreach ($files as $file) {
             $output .= $this->generateOneBlock($file);
         }
@@ -28,26 +33,29 @@ class Page
     public function getListOfFiles(string $directory) : array
     {
         $files = array();
-        if (is_file($files)) {
+        //if (is_file($files)) {
+            // echo '$directory = '. $directory . PHP_EOL;
             $filesInDir = scandir($directory);
             if ($filesInDir !== false) {                                
                 foreach ($filesInDir as $file) {
                     // Check if it's a directory (not . or ..)
                     if (is_file($directory . '/' . $file) && $file != "." && $file != "..") {
-                        $files[] = $file;
+                        $files[] = $directory . DIRECTORY_SEPARATOR . $file;
                     }
                 }                        
             } else {
                 echo "Failed to read the directory.";
             }
-        } else {
-            echo "The directory does not exist.";
-        }
+        // } else {
+        //     echo "The directory does not exist.";
+        // }
         return $files;
     }
 
     public function generateOneBlock(string $file) : string
     {
-        return $file;
+        $output = file_get_contents('./video1.html');            
+        $output = str_replace('{videoFile}', $file, $output);
+        return $output;
     }
 }
