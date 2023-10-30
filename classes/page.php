@@ -22,10 +22,13 @@ class Page
             $output = '';
         }
         //str_replace
+        $output .= '<div class="container">';
         $files = $this->getListOfFiles($this->path);
+        // $index = 
         foreach ($files as $file) {
             $output .= $this->generateOneBlock($file);
         }
+        $output .= '</div>';
         return $output;        
     }
 

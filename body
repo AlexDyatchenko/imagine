@@ -18,3 +18,5 @@
         <script>
           includeHTML();
           </script>
+
+<div class="d-inline-flex justify-content-center p-2 bd-highlight">
