@@ -32,6 +32,16 @@ class Page
         return $output;        
     }
 
+    public function generate() : string
+    {
+        $pagesFolders = $pages->getListOfFolders();
+        foreach ($pagesFolders as $folder) {
+            $page = new page('./pages/' . $folder);
+            $videoBlock = $page->generate();
+            $this->addButtonForFolder($videoBlock);    
+        }
+    }
+
 
     public function getListOfFiles(string $directory) : array
     {

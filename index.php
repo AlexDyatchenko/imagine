@@ -9,7 +9,7 @@ require_once './classes/pageChoice.php';
 $outputProcessor = new outputProcessor('index.html');
 
 $pages = new pages();
-
+// if ($SERVER[''] !== null) {}
 $pc = new pageChoice('./pages/');
 $outputProcessor->addToBody($pc->generate());
 
