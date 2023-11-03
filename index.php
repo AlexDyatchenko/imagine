@@ -14,4 +14,4 @@ $pc = new pageChoice();
 $outputProcessor->addToBody($pc->generatePage());
 
 $outputProcessor->addToBody(PHP_EOL. 'php works!');
-$outputProcessor->echo();
+echo $outputProcessor->echo();

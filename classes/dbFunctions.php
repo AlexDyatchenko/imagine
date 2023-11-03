@@ -17,23 +17,24 @@ class dbFunctions
         $pagesFolders = $sf->getListOfFolders($this->folder);
         file_put_contents('./log.txt', 'folders= ' . json_encode($pagesFolders) .PHP_EOL, FILE_APPEND);
         foreach ($pagesFolders as $folder) {
-            $ist[] = $this->getMediaObjectFromFolder($folder);
+            $list[] = $this->getMediaObjectFromFolder($folder);
+            //file_put_contents('./log.txt', 'getMediaObjectFromFolder' .PHP_EOL, FILE_APPEND);
         }
         return $list;
     }
 
     public function getMediaObjectFromFolder(string $folder) : folderMedia
     {
-        file_put_contents('./log.txt', 'getMediaObjectFromFolder' .PHP_EOL, FILE_APPEND);
+        
         
         $object = new folderMedia;
-        if (!file_exists($folder . 'description.json')) {
+        if (!file_exists($folder . '/description.json')) {
             return $object;
-        }
-        $fileContent = file_get_contents($folder . '/description.json');
+        }        
+        $fileContent = file_get_contents($folder . '/description.json');        
         $objctFromFile = json_decode($fileContent);
         $object->description = $objctFromFile->description;
-
+        
         return $object;
     }    
 }

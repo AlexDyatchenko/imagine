@@ -1,23 +1,131 @@
 0
-0
-["muscle","smile"]
-0
-[".\/Media\/muscle",".\/Media\/smile"]
-0
-[".\/Media\/muscle",".\/Media\/smile"]
-[]
+folders= [".\/Media\/muscle",".\/Media\/smile"]
+[{"description":"What do you prefer  muscle?","images":[]},{"description":"What do you prefer  smile ?","images":[]}]
+No content! ./pages/mediaButton.html
+3""
+No content! ./pages/mediaButton.html
+1 
+No content! ./pages/mediaButton.html
+3""
+No content! ./pages/mediaButton.html
+1 
+button = 
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Imagine</title>
+    <link
+      href="bootstrap/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+  </script>    
+    <body>
+      
+php works!    
+    </body>
+</html>
+
 0
 folders= [".\/Media\/muscle",".\/Media\/smile"]
-getMediaObjectFromFolder
-getMediaObjectFromFolder
-[]
+[{"description":"What do you prefer  muscle?","images":[]},{"description":"What do you prefer  smile ?","images":[]}]
+<div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  muscle?
+</div>
+3"<div class=\"d-inline-flex justify-content-center p-2 bd-highlight\">\r\n    What do you prefer  muscle?\r\n<\/div>"
+<div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  muscle?
+</div>
+1 <div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  muscle?
+</div>
+<div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  smile ?
+</div>
+3"<div class=\"d-inline-flex justify-content-center p-2 bd-highlight\">\r\n    What do you prefer  smile ?\r\n<\/div>"
+<div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  smile ?
+</div>
+1 <div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  smile ?
+</div>
+button = <div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  muscle?
+</div><div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  smile ?
+</div>
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Imagine</title>
+    <link
+      href="bootstrap/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+  </script>    
+    <body>
+      <div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  muscle?
+</div><div class="d-inline-flex justify-content-center p-2 bd-highlight">
+    What do you prefer  smile ?
+</div>
+php works!    
+    </body>
+</html>
+
 0
 folders= [".\/Media\/muscle",".\/Media\/smile"]
-getMediaObjectFromFolder
-getMediaObjectFromFolder
-[]
-0
-folders= [".\/Media\/muscle",".\/Media\/smile"]
-getMediaObjectFromFolder
-getMediaObjectFromFolder
-[]
+[{"description":"What do you prefer  muscle?","images":[]},{"description":"What do you prefer  smile ?","images":[]}]
+<button type="button" class="btn btn-outline-primary">What do you prefer  muscle?</button>
+3"<button type=\"button\" class=\"btn btn-outline-primary\">What do you prefer  muscle?<\/button>"
+<button type="button" class="btn btn-outline-primary">What do you prefer  muscle?</button>
+1 <button type="button" class="btn btn-outline-primary">What do you prefer  muscle?</button>
+<button type="button" class="btn btn-outline-primary">What do you prefer  smile ?</button>
+3"<button type=\"button\" class=\"btn btn-outline-primary\">What do you prefer  smile ?<\/button>"
+<button type="button" class="btn btn-outline-primary">What do you prefer  smile ?</button>
+1 <button type="button" class="btn btn-outline-primary">What do you prefer  smile ?</button>
+button = <button type="button" class="btn btn-outline-primary">What do you prefer  muscle?</button><button type="button" class="btn btn-outline-primary">What do you prefer  smile ?</button>
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Imagine</title>
+    <link
+      href="bootstrap/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script>
+  </script>    
+    <body>
+      <button type="button" class="btn btn-outline-primary">What do you prefer  muscle?</button><button type="button" class="btn btn-outline-primary">What do you prefer  smile ?</button>
+php works!    
+    </body>
+</html>
+
