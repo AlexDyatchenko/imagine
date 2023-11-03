@@ -17,7 +17,7 @@ class outputProcessor
         $this->body .= $html;
     }
 
-    public function getBody(): string
+    public function getPageContent(): string
     {
         return $this->body;
     }

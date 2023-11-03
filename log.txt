@@ -1,0 +1,23 @@
+0
+0
+["muscle","smile"]
+0
+[".\/Media\/muscle",".\/Media\/smile"]
+0
+[".\/Media\/muscle",".\/Media\/smile"]
+[]
+0
+folders= [".\/Media\/muscle",".\/Media\/smile"]
+getMediaObjectFromFolder
+getMediaObjectFromFolder
+[]
+0
+folders= [".\/Media\/muscle",".\/Media\/smile"]
+getMediaObjectFromFolder
+getMediaObjectFromFolder
+[]
+0
+folders= [".\/Media\/muscle",".\/Media\/smile"]
+getMediaObjectFromFolder
+getMediaObjectFromFolder
+[]

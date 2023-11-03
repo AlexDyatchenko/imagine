@@ -1,9 +1,12 @@
 <?php
 namespace imagine;
 
-require_once './classes/video.php';
+use systemFunctions;
 
-class Page
+require_once './classes/video.php';
+require_once './classes/systemFunctions.php';
+
+class PageVideo
 {
     private string $path = '';
 
@@ -13,7 +16,7 @@ class Page
         //echo 'path = ' . $path . PHP_EOL;
     }
 
-    public function generate(): string
+    public function generatePage(): string
     {
         if (file_exists($this->path . '/description.json'))
         {
@@ -23,7 +26,8 @@ class Page
         }
         //str_replace
         $output .= '<div class="container">';
-        $files = $this->getListOfFiles($this->path);
+        $sf = new systemFunctions;
+        $files = $sf->getListOfFiles($this->path);
         // $index = 
         foreach ($files as $file) {
             $output .= $this->generateOneBlock($file);
@@ -40,29 +44,6 @@ class Page
             $videoBlock = $page->generate();
             $this->addButtonForFolder($videoBlock);    
         }
-    }
-
-
-    public function getListOfFiles(string $directory) : array
-    {
-        $files = array();
-        //if (is_file($files)) {
-            // echo '$directory = '. $directory . PHP_EOL;
-            $filesInDir = scandir($directory);
-            if ($filesInDir !== false) {                                
-                foreach ($filesInDir as $file) {
-                    // Check if it's a directory (not . or ..)
-                    if (is_file($directory . '/' . $file) && $file != "." && $file != "..") {
-                        $files[] = $directory . DIRECTORY_SEPARATOR . $file;
-                    }
-                }                        
-            } else {
-                echo "Failed to read the directory.";
-            }
-        // } else {
-        //     echo "The directory does not exist.";
-        // }
-        return $files;
     }
 
     public function generateOneBlock(string $file) : string

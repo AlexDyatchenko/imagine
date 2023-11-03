@@ -2,50 +2,36 @@
 
 namespace imagine;
 require_once './classes/outputProcessor.php';
-use stdClass;
+require_once './classes/dbFunctions.php';
 
 class pageChoice
 {
     private outputProcessor $outputProcessor;
-    private string $folder = '';
+    private dbFunctions $dbFunctions;
 
-    public function __construct(string $folder)
+    public function __construct()
     {
-        $this->folder = $folder;
+        $this->dbFunctions = new dbFunctions;
+        $this->outputProcessor = new outputProcessor('./video.html');
     }
     
     public function generatePage() : string
     {
-        
-    }
-    
-    public function getListOfMedia(Type $var = null) : stdClass
-    {
-        $list = new stdClass;
-        $pagesFolders = $pages->getListOfFolders();
-        foreach ($pagesFolders as $folder) {
-            $page = new page('./pages/' . $folder);
-            $videoBlock = $page->generate();
-            $this->addButtonForFolder($videoBlock);    
-        }
+        file_put_contents('./log.txt', '0'.PHP_EOL, FILE_APPEND);
+        $list = $this->dbFunctions->getListOfMedia();
+        file_put_contents('./log.txt', json_encode($list).PHP_EOL, FILE_APPEND);
+        foreach ($list as $media) {
+            file_put_contents('./log.txt', '1'.PHP_EOL, FILE_APPEND);
+            $button = $this->addButtonForMedia($media);
+            $this->outputProcessor->addToBody($button);    
+        }  
+        return $this->outputProcessor->getPageContent();
     }
 
-    public function getObjectFromFolder(string $folder) : stdClass
+    public function addButtonForMedia(folderMedia $mediaItem): string
     {
-        $object = new stdClass;
-        if (file_exists(folder . 'description.json'))
-        {
-            $output = file_get_contents($this->path . '/description.json');            
-        } else {
-            $output = '';
-        }
-
-        $object->description = 
-    }    
-
-    public function addButtonForFolder(string $folder): string
-    {
-        $button = '<button>Butt1</button>';
-        $this->outputProcessor->addToBody($button);
+        $buttonTemplate = new outputProcessor('./pages/mediaButton.html');
+        $buttonTemplate->addtoBody($mediaItem->description);
+        return $buttonTemplate->getPageContent();
     }
 }
