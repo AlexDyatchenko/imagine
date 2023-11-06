@@ -27,13 +27,16 @@ class dbFunctions
         file_put_contents('./log.txt', 'getMediaObjectFromFolder' .PHP_EOL, FILE_APPEND);
         
         $object = new folderMedia;
-        if (!file_exists($folder . 'description.json')) {
+        if (!file_exists($folder . '/description.json')) {
             return $object;
         }
         $fileContent = file_get_contents($folder . '/description.json');
         $objctFromFile = json_decode($fileContent);
-        $object->description = $objctFromFile->description;
-
+        file_put_contents('./log.txt', 'obj = ' . json_encode($object) .PHP_EOL, FILE_APPEND);
+        $object->description = $objctFromFile->question;
+        file_put_contents('./log.txt', 'obj = ' . json_encode($object) .PHP_EOL, FILE_APPEND);
+        $object->question = $objctFromFile->question;
+        
         return $object;
     }    
 }

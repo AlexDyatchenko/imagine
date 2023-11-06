@@ -20,10 +20,11 @@ class pageChoice
         file_put_contents('./log.txt', '0'.PHP_EOL, FILE_APPEND);
         $list = $this->dbFunctions->getListOfMedia();
         file_put_contents('./log.txt', json_encode($list).PHP_EOL, FILE_APPEND);
+        $allButtons = '';
         foreach ($list as $media) {
             file_put_contents('./log.txt', '1'.PHP_EOL, FILE_APPEND);
-            $button = $this->addButtonForMedia($media);
-            $this->outputProcessor->addToBody($button);    
+            $allButtons .= $this->addButtonForMedia($media);
+            $this->outputProcessor->addToBody($media);    
         }  
         return $this->outputProcessor->getPageContent();
     }
