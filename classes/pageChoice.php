@@ -33,8 +33,10 @@ class pageChoice
 
     public function addButtonForMedia(folderMedia $mediaItem): string
     {
-        $buttonTemplate = new outputProcessor('mediaButton.html');
-        $buttonTemplate->addtoBody($mediaItem->description);
+        $buttonTemplate = new outputProcessor('./pages/mediaButton.html');
+        $buttonTemplate->setParameter($mediaItem->description);
+        $buttonTemplate->setParameter($mediaItem->quizID, 'quizID');
+
           file_put_contents('./log.txt', '3' . json_encode($buttonTemplate->echo()).PHP_EOL, FILE_APPEND);
         return $buttonTemplate->echo();
     }
