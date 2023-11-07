@@ -1,0 +1,10 @@
+.videoBlock:hover {
+    box-shadow: 0 0 2rem black;
+    transform: scale(1.08);
+}
+.videoBlock {
+    border: 0.5rem solid white;
+    /* margin: 1rem; */
+    transition: transform 0.3s;
+}
+    

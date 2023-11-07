@@ -1,23 +1,20 @@
 <?php
 
 namespace imagine;
+
+use router;
+
 require_once './classes/outputProcessor.php';
-require_once './classes/pageVideo.php';
-require_once './classes/pages.php';
-require_once './classes/pageChoice.php';
+require_once './classes/systemFunctions.php';
+require_once './classes/dbFunctions.php';
+require_once './classes/router.php';
 
-$outputProcessor = new outputProcessor('index.html');
+$router = new router();
+$router->route();
 
-$pages = new pages();
-// $_SERVER
-$url = $_SERVER['QUERY_STRING'];
-file_put_contents('./log.txt', '4' . json_encode($_SERVER).PHP_EOL, FILE_APPEND);
-
-parse_url($url, PHP_URL_QUERY);
-// if ($SERVER[''] !== null) {}
+//$url = $_SERVER['QUERY_STRING'];
+//file_put_contents('./log.txt', '4' . json_encode($_SERVER).PHP_EOL, FILE_APPEND);
         
-$pc = new pageChoice();
-$outputProcessor->setParameter($pc->generatePage());
+
 
 // $outputProcessor->addToBody(PHP_EOL. 'php works!');
-echo $outputProcessor->echo();
