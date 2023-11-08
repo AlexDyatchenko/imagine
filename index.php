@@ -8,7 +8,13 @@ require_once './classes/outputProcessor.php';
 require_once './classes/systemFunctions.php';
 require_once './classes/dbFunctions.php';
 require_once './classes/router.php';
-
+$GLOBALS['mediaFolder'] = './media/';
+if (is_dir($GLOBALS['mediaFolder']) === false) {
+    file_put_contents('./log.txt', '!!! error: M drive is inaccessible '.PHP_EOL, FILE_APPEND);
+    $GLOBALS['mediaFolder'] = './MediaTemp/';
+}
+// $f = is_dir($GLOBALS['mediaFolder']) ? 'true' : 'false';
+// echo 'bool = ' . $f;
 $router = new router();
 $router->route();
 

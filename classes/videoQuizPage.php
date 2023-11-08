@@ -24,7 +24,7 @@ class videoQuizPage
             return 'error!';
         }
         $videoQuiz = new outputProcessor('./pages/videoQuiz.html');        
-        
+        $videoQuiz->setParameter($this->media->description, 'Description');
         // $video1Row = new outputProcessor('./pages/video1Row.html');
 
         $videos = '';

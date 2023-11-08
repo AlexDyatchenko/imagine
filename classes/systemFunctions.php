@@ -63,7 +63,7 @@ class systemFunctions
                 echo "Failed to read the directory.";
             }
         } else {
-            echo "The directory does not exist.";
+            echo "The directory does not exist. " . $folder;
         }
         return $folders;
     }

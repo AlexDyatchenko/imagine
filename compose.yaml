@@ -5,3 +5,4 @@ services:
       - 80:80
     volumes:
       - ./:/var/www/html/
+      - M:/Media/:/var/www/media

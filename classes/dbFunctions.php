@@ -9,8 +9,11 @@ require_once('./classes/folderMedia.php');
 
 class dbFunctions
 {
-    public string $folder = './Media';
+    public string $folder = '';
 
+    public function __construct() {
+        $this->folder = $GLOBALS['mediaFolder'];
+    }
     # return associative array: key = quiz ID
     public function getListOfMedia(): array
     {
