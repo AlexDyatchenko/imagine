@@ -1,0 +1,8 @@
+{
+    "quizID" : 1,
+    "description":"What do you prefer muscle? M",
+    "forHim" : true,
+    "forHer" : true,
+    "group" : "First sight",
+    "colorButton" : "red"
+}

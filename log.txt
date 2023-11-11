@@ -7,3 +7,305 @@ searching files matching ./MediaTemp//smile . '/' . *.webm.
 3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
 3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
 3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+!!! error: M drive is inaccessible 
+folders= [".\/MediaTemp\/\/muscle",".\/MediaTemp\/\/smile"]
+searching files matching ./MediaTemp//muscle . '/' . *.webm.
+searching files matching ./MediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/MediaTemp\/\/muscle\/1.webm",".\/MediaTemp\/\/muscle\/2.webm",".\/MediaTemp\/\/muscle\/3.webm",".\/MediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/MediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/media\/\/Fun",".\/media\/\/muscle",".\/media\/\/smile"]
+searching files matching ./media//Fun . '/' . *.webm.
+No files matching '*.webm' found in ./media//Fun.
+searching files matching ./media//muscle . '/' . *.webm.
+searching files matching ./media//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle? M","images":[".\/media\/\/muscle\/1.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/3.webm",".\/media\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/media\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/media\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/media\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+0
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
+3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
+1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
+3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
+2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+0
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
+3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
+1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
+3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
+2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+0
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
+3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
+1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
+3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
+2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
+onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/mediaTemp\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted>\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+folders= [".\/mediaTemp\/\/muscle",".\/mediaTemp\/\/smile"]
+searching files matching ./mediaTemp//muscle . '/' . *.webm.
+searching files matching ./mediaTemp//smile . '/' . *.webm.
+{"quizID":1,"description":"What do you prefer muscle?","images":[".\/mediaTemp\/\/muscle\/1.webm",".\/mediaTemp\/\/muscle\/2.webm",".\/mediaTemp\/\/muscle\/3.webm",".\/mediaTemp\/\/muscle\/4.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/1.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/3.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    muted\r\n    onclick=\"openModal()\">\r\n    <source \r\n        src=\".\/mediaTemp\/\/muscle\/4.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"

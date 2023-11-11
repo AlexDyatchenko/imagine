@@ -4,5 +4,5 @@ services:
     ports:
       - 80:80
     volumes:
+      - c:\Users\Administrator\Settings\Data\Media\imagine\:/var/www/html/media
       - ./:/var/www/html/
-      - M:/Media/:/var/www/media
