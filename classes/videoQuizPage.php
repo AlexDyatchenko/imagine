@@ -32,7 +32,7 @@ class videoQuizPage
         $index = 0;
         foreach ($this->media->images as $value) {
             $index++;
-            $videos .= $this->generateOneVideo($value);
+            $videos .= $this->generateOneVideo($value, $index);
             // if ($index % 2) {
             //     //file_put_contents('./log.txt', $videos1row . PHP_EOL, FILE_APPEND);                    
             //     $videos .= $videos1row->echo();
@@ -44,10 +44,11 @@ class videoQuizPage
         return $videoQuiz->echo();
     }
 
-    public function generateOneVideo(string $file): string
+    public function generateOneVideo(string $file, int $ID): string
     {
         $oneVideoBlock = new outputProcessor('./pages/oneVideo.html');
         $oneVideoBlock->setParameter($file, 'videoFile');
+        $oneVideoBlock->setParameter('videoBlock' . $ID, 'videoBlockID');
         file_put_contents('./log.txt', '3' . json_encode($oneVideoBlock->echo()) . PHP_EOL, FILE_APPEND);
         return $oneVideoBlock->echo();
     }

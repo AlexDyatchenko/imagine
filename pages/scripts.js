@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 function openModal() {
+    let v = document.querySelector('#videoBlock1').outerHTML; 
+    document.querySelector('.modal-content').innerHTML = v;
     document.getElementById('myModal').style.display = 'block';
 }
 

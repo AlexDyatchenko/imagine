@@ -1,6 +1,8 @@
 {
     "quizID" : 1,
     "description":"What do you prefer muscle?",
+    "buttonCaption":"What do you prefer muscle?",
+    "question":"What do you prefer muscle?",
     "forHim" : true,
     "forHer" : true,
     "group" : "First sight",

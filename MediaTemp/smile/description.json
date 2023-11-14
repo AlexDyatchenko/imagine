@@ -1,6 +1,8 @@
 {
     "quizID" : 2,
     "description":"What do you prefer smile ?",
+    "buttonCaption":"What do you prefer smile ?",
+    "question":"What do you prefer smile ?",
     "forHim" : true,
     "forHer" : true,
     "group" : "First sight",
