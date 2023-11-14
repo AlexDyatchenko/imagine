@@ -7,9 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("loadingOverlay").style.display = "none";
     });
 });
-function openModal() {
-    let v = document.querySelector('#videoBlock1').outerHTML; 
-    document.querySelector('.modal-content').innerHTML = v;
+function openModal(videoBlockID) {
+    let v = document.querySelector('#' + videoBlockID).innerHTML; 
+    let videoElement = document.querySelector('.videoModal');
+    videoElement.innerHTML = v;
+    videoElement.load();
     document.getElementById('myModal').style.display = 'block';
 }
 

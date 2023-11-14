@@ -9,7 +9,7 @@ require_once './classes/systemFunctions.php';
 require_once './classes/dbFunctions.php';
 require_once './classes/router.php';
 $GLOBALS['mediaFolder'] = './media/';
-$GLOBALS['mediaFolder'] = './mediaTemp/';
+// $GLOBALS['mediaFolder'] = './mediaTemp/';
 // $f = is_dir($GLOBALS['mediaFolder']) ? 'true' : 'false';
 // echo 'bool = ' . $f;
 $router = new router();
