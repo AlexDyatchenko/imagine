@@ -2,7 +2,6 @@
     box-shadow: 0 0 2rem black;
     transform: scale(1.08);
     border: 0.5rem solid rgb(255, 193, 7, 0.5);
-    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     cursor: pointer;
 }
@@ -10,12 +9,13 @@
     border: 0.5rem solid white;
     /* margin: 1rem; */
     transition: transform 0.1s;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 .videoModal {
     border-radius: 1rem;
     border: 3px solid #ffffff;
     height: 75vh;
+    max-width: 90vw;
 }
 .spinner {
     border: 4px solid rgba(0, 0, 0, 0.3);
@@ -53,24 +53,25 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);  
+    backdrop-filter: blur(5px); 
+    justify-content: center;
 }
 
 .modal-content {
     background-color: #fff;
     margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
     padding: 20px;
-    border: 3px solid #ffffff;
-    width: 70%;        
-    height: 90vh;
+    padding-bottom: 10px;
+    border: 3px solid #ffffff;       
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
-    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);  
     border-radius: 1rem;  
-    width: fit-content;  
+    width: fit-content;      
+}
+
+.modal-content.yes {
+    background-color: rgba(200, 255, 200, 0.8); /* semi-transparent background */
 }
 
 .close {
@@ -85,4 +86,16 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+span.loader.stop{
+    display: none;
+}
+
+.quizChoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 70vw;
 }

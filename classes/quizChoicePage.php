@@ -19,6 +19,7 @@ class quizChoicePage
         $allButtons = '';
         $list = $this->dbFunctions->getListOfMedia();
         file_put_contents('./log.txt', json_encode($list).PHP_EOL, FILE_APPEND);
+
         $allButtons = '';        
         foreach ($list as $media) {            
             $button = $this->addButtonForMedia($media);
@@ -26,7 +27,11 @@ class quizChoicePage
             $allButtons .= $button;
         }  
         file_put_contents('./log.txt', 'button = ' . $allButtons.PHP_EOL, FILE_APPEND);
-        return $allButtons;
+        
+        $quizChoicePage = new outputProcessor('pages/quizChoicePage.html');
+        $quizChoicePage->setParameter($allButtons);
+
+        return $quizChoicePage->echo();
     }
 
     public function addButtonForMedia(folderMedia $mediaItem): string

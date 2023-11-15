@@ -10,16 +10,22 @@
     <div class="spinner"></div>
 </div>
 <div id="myModal" class="modal" onclick="closeModal()">
-    <div class="modal-content">        
-        <video class="videoModal" autoplay="autoplay" loop="true" muted>        
+    <div class="modal-content" onclick="nothing()">
+        <video class="videoModal" autoplay="autoplay" loop="true" muted>
             Your browser does not support the video tag.
         </video>
-        <div style="display:flex;     justify-content: center;"><button type="button" 
-            class="btn btn-success" style="margin:10px;"
-            onclick="window.location.href = '/'">     Yeah    </button>
-        <button type="button" class="btn btn-secondary" style="margin:10px;"
-            onclick="closeModal()">Nope</button>
+        <div style="display:flex; justify-content: center; margin-top: 8px;">
+            <button type="button" class="btn btn-success answerYes" style="margin:10px;"
+                >
+                <span class="loader stop">
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    <span class="visually-hidden">Loading...</span>
+                </span>
+                     Yeah    
+            </button>
+            <button type="button" class="btn btn-secondary" style="margin:10px;" onclick="closeModal()"
+            >Nope</button>
         </div>
-        
+
     </div>
 </div>
