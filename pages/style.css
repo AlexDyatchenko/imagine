@@ -72,6 +72,7 @@
 
 .modal-content.yes {
     background-color: rgba(200, 255, 200, 0.8); /* semi-transparent background */
+    border: 3px solid rgba(150, 255, 150, 0.5);   
 }
 
 .close {
@@ -93,9 +94,17 @@ span.loader.stop{
 }
 
 .quizChoice{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
     max-width: 70vw;
+}
+.field {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    max-width: 15vw;
+}
+.btn {
+    width:fit-content;
 }

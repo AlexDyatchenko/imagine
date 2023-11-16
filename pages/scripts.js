@@ -52,7 +52,7 @@ function saveAnswer(evt, videoBlockID) {
     // modalContentElement.removeEventListener("click", closeModal);
     setTimeout(() => {
         window.location.href = '/';
-    }, 5000);
+    }, 3000);
 
 }
 
