@@ -50,4 +50,15 @@ class dbFunctions
 
         return $object;
     }
+
+    public function getListOfPlayers() : array
+    {
+        $fileContent = file_get_contents('players.json');
+        return json_decode($fileContent);
+    }
+
+    public function saveListOfPlayers(array $list) : void
+    {
+        file_put_contents('players.json', json_encode($list));
+    }
 }

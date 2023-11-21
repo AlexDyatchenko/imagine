@@ -112,6 +112,16 @@ span.loader.stop{
 .btn {
     width:fit-content;
 }
-.pageButton {
+.pageButton.btn.btn-outline-primary {
     background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.pageButton.btn.btn-outline-primary:hover {
+    /* background-color: rgba(37, 114, 255); */
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #0d6efd;
+    box-shadow: 0em 0em 2em rgba(0, 0, 0, 0.3);
+    transform: scale(1.08);
+    transition: transform 0.2s;
 }
