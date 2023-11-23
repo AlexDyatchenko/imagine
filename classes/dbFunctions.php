@@ -6,10 +6,12 @@ use systemFunctions;
 
 require_once('./classes/systemFunctions.php');
 require_once('./classes/folderMedia.php');
+require_once('./classes/player.php');
 
 class dbFunctions
 {
     public string $folder = '';
+    public string $playersFileName = './Games/Game1/players.json';
 
     public function __construct() {
         $this->folder = $GLOBALS['mediaFolder'];
@@ -33,8 +35,6 @@ class dbFunctions
 
     public function getMediaObjectFromFolder(string $folder): folderMedia
     {
-
-
         $object = new folderMedia;
         if (!file_exists($folder . '/description.json')) {
             return $object;
@@ -53,12 +53,21 @@ class dbFunctions
 
     public function getListOfPlayers() : array
     {
-        $fileContent = file_get_contents('players.json');
-        return json_decode($fileContent);
+        $list = [];
+        if (file_exists($this->playersFileName) === false) {
+            for ($i=1; $i <= 4; $i++) { 
+                $newPlayer = new player;
+                $list []= $newPlayer;
+            }
+        } else {
+            $fileContent = file_get_contents($this->playersFileName);
+            $list = json_decode($fileContent);    
+        }
+        return $list;
     }
 
     public function saveListOfPlayers(array $list) : void
     {
-        file_put_contents('players.json', json_encode($list));
+        file_put_contents($this->playersFileName, json_encode($list));
     }
 }

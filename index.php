@@ -8,7 +8,7 @@ require_once './classes/outputProcessor.php';
 require_once './classes/systemFunctions.php';
 require_once './classes/dbFunctions.php';
 require_once './classes/router.php';
-require_once './classes/players.php';
+require_once './classes/playersController.php';
 $GLOBALS['mediaFolder'] = './media/';
 // $GLOBALS['mediaFolder'] = './mediaTemp/';
 // $f = is_dir($GLOBALS['mediaFolder']) ? 'true' : 'false';

@@ -1,0 +1,8 @@
+POST http://localhost?fn=updatePlayer HTTP/1.1
+content-type: application/json
+
+{
+    "id" : 1,
+    "name": "Alex",
+    "gender": 1
+}
