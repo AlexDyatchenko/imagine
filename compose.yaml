@@ -8,3 +8,5 @@ services:
       # - C:\Users\video\Pictures\:/var/www/html/media
       - ./MediaTemp\:/var/www/html/media
       - ./:/var/www/html/
+    expose:
+      - 9000

@@ -1,0 +1,8 @@
+{
+    "currentPlayerID": 1,
+    "currentPlayer": {
+        "name": "Alex",
+        "ID": 1,
+        "gender": 1
+    }
+}

@@ -10,5 +10,6 @@ enum genders: int {
 class player
 {
     public string $name = '';
+    public int $ID = -1;
     public genders $gender = genders::unknown; 
 }

@@ -13,4 +13,6 @@ class folderMedia
     public bool      $forHer = false;
     public string    $group = '';
     public string    $colorButton = '';
+    public bool      $alreadyAnswered = false;
+    public int       $sortOrder = 100;
 }

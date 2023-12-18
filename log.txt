@@ -1,816 +1,305 @@
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-No content! pages\quizChoicePage.html
+{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+
+fun compareBySortOrder= 0
+{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+
+fun compareBySortOrder= -105
+{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+
+fun compareBySortOrder= -5
+{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+
+fun compareBySortOrder= -5
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+
+fun compareBySortOrder= -5
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+
+fun compareBySortOrder= -5
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/299.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Val","ID":2,"gender":2}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"1"} :: 
 0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-searching files matching ./media//muscle . '/' . *.webm.
-searching files matching ./media//smile . '/' . *.webm.
-{"1":{"quizID":1,"description":"What do you prefer muscle?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red"}}
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=1'\">What do you prefer muscle?<\/button>"
-1<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button>
-3"<button type=\"button\" class=\"pageButton btn btn-outline-primary\" style=\"margin-right:10px;\"\r\nonclick=\"window.location.href = window.location.href + '?quiz=2'\">What do you prefer smile ?<\/button>"
-2<button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
-button = <button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=1'">What do you prefer muscle?</button><button type="button" class="pageButton btn btn-outline-primary" style="margin-right:10px;"
-onclick="window.location.href = window.location.href + '?quiz=2'">What do you prefer smile ?</button>
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+
+players raw===

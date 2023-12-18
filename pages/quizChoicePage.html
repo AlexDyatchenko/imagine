@@ -1,18 +1,13 @@
 <div class="background" style="background-image: url('images/palm-beach-4k-wallpapers.jpg'); "> 
+    <script src="pages/quizChoicePage.js"></script>
     <div style="backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.5);">
     <div class="quizChoice container">
         <div class="row row-cols-1">
-            <div class="input-group row row-cols-1">
-                <legend>Players</legend>
-                <input class="form-control col-6 field" type="text" placeholder="Name 1"
-                    aria-label="default input example">
-                <input class="form-control field" type="text" placeholder="Name 2" aria-label="default input example1">
-            </div>
+            {players}
         </div>
         <div class="row row-cols-1" style="margin-top:50px;">
             {body}
         </div>
-
     </div>
 </div>
 </div>

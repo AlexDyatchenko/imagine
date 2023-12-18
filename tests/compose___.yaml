@@ -1,0 +1,27 @@
+version: "3"
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports: 
+      - "80:80"
+    networks:
+      - internal
+    volumes:
+      # - c:\Users\Administrator\Settings\Data\Media\imagine\:/var/www/html/media
+      # - C:\Users\video\Pictures\:/var/www/html/media
+      - ./MediaTemp\:/var/www/html/media
+      - ./:/var/www/html/
+      - ./data/:/var/www/html/
+      - ./logs/nginx:/var/log/nginx/
+  php:
+    image: php:fpm-alpine
+    networks:
+      - internal
+    volumes:
+      - ./data/:/var/www/html/
+      - ./logs/php.log:/var/log/fpm-php.www.log
+networks:
+  internal:
+    driver: bridge

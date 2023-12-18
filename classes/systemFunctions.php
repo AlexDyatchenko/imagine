@@ -12,7 +12,7 @@ class systemFunctions
         $filesArray = array();
         $files = glob($directory . '/' . $wildcard);
         $message = "searching files matching $directory . '/' . $wildcard.";
-        file_put_contents('./log.txt', $message . PHP_EOL, FILE_APPEND);
+        // file_put_contents('./log.txt', $message . PHP_EOL, FILE_APPEND);
         if ($files !== false) {
             if (count($files) > 0) {
                 foreach ($files as $file) {
@@ -20,11 +20,11 @@ class systemFunctions
                 }
             } else {
                 $message = "No files matching '$wildcard' found in $directory.";
-                file_put_contents('./log.txt', $message . PHP_EOL, FILE_APPEND);
+                // file_put_contents('./log.txt', $message . PHP_EOL, FILE_APPEND);
             }
         } else {
             $message = "Failed to read the directory with glob().";
-            file_put_contents('./log.txt', $message . PHP_EOL, FILE_APPEND);
+            // file_put_contents('./log.txt', $message . PHP_EOL, FILE_APPEND);
         }
 
         //if (is_file($files)) {

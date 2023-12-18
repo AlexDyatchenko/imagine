@@ -1,0 +1,20 @@
+[
+    {
+        "playerID": 2,
+        "pathToVideo": "path1",
+        "time": {
+            "date": "2023-12-12 08:11:00.609828",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        }
+    },
+    {
+        "playerID": 2,
+        "pathToVideo": ".\/media\/\/muscle\/2.webm",
+        "time": {
+            "date": "2023-12-12 21:41:29.020156",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        }
+    }
+]
