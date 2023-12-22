@@ -1,8 +1,9 @@
 {
-    "currentPlayerID": 1,
+    "currentPlayerID": 4,
     "currentPlayer": {
-        "name": "Alex",
-        "ID": 1,
-        "gender": 1
-    }
+        "name": "Diana",
+        "ID": 4,
+        "gender": 2
+    },
+    "quizID": 2
 }

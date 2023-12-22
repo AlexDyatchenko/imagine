@@ -1,6 +1,7 @@
-<div class="background" style="background-image: url('images/palm-beach-4k-wallpapers.jpg'); "> 
+<!-- <div class="background" style="background-image: url('images/palm-beach-4k-wallpapers.jpg'); ">  -->
+<div class="background"> 
     <script src="pages/quizChoicePage.js"></script>
-    <div style="backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.5);">
+    <!-- <div style="backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, 0.5);"> -->
     <div class="quizChoice container">
         <div class="row row-cols-1">
             {players}
@@ -8,6 +9,28 @@
         <div class="row row-cols-1" style="margin-top:50px;">
             {body}
         </div>
+    </div>
+    <video 
+    class="videoBackground"
+    width="100%" 
+    height="100%" 
+    autoplay="autoplay" 
+    loop="true"
+    id="{videoBlockID}"
+    muted
+    style = "position: fixed; top: 0;    left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -100;">
+    <source 
+        src="MediaTemp\smile\2.webm" 
+        type="video/mp4"
+    />
+    Your browser does not support the video tag.
+</video>
+<div 
+    width="100%" 
+    height="100%" 
+    class = "glassCover"
+    style = "backdrop-filter: blur(5px); position: fixed; top: 0;    left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -99;">
+
     </div>
 </div>
 </div>

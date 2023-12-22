@@ -111,6 +111,7 @@ class dbFunctions
                 $game->currentPlayerID = $objectFromFile->currentPlayerID;
                 $players=$this->getListOfPlayers();
                 $game->currentPlayer = $players[$game->currentPlayerID];
+                $game->quizID = $objectFromFile->quizID;
             }
         } catch (\Throwable $th) {
             logger::log('error in getting player');
@@ -138,13 +139,16 @@ class dbFunctions
 
     function saveChoice(string $pathToVideo): void 
     {
-        // logger::log('answer 1');
+        logger::log('answer v: ' . $pathToVideo);
         $obj = $this->getAnswers();
         $game = constants::getGame();
         $newAnswer = new answer();
         $newAnswer->playerID = $game->currentPlayerID;
         $pathToVideo = str_replace('\/', '/', $pathToVideo);
-        $newAnswer->pathToVideo = $pathToVideo;        
+        $newAnswer->pathToVideo = $pathToVideo;
+        logger::log('saveChoice 1 '. json_encode(constants::getGame()));   
+        $newAnswer->quizID = constants::getGame()->quizID;    
+        logger::log('saveChoice 2 '); 
         $obj[] = $newAnswer;
         $answersJson = json_encode($obj, JSON_PRETTY_PRINT);
         file_put_contents($this->answersFileName, $answersJson);
@@ -155,13 +159,11 @@ class dbFunctions
         folderMedia $mediaObject, 
         array $answers, 
         int $playerID) : folderMedia {
-        foreach ($mediaObject->images as $image) {
-            foreach ($answers as $answer) {
-                if ($image === $answer->pathToVideo || $answer->playerID === $playerID) {
-                    $mediaObject->alreadyAnswered = true;
-                    return $mediaObject;
-                }
-            }            
+        foreach ($answers as $answer) {
+            if ($mediaObject->quizID === $answer->quizID && $answer->playerID === $playerID) {
+                $mediaObject->alreadyAnswered = true;
+                return $mediaObject;
+            }
         }
         return $mediaObject;
     }

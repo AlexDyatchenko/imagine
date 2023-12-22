@@ -21,7 +21,7 @@ class quizChoicePage
         file_put_contents('./log.txt', '0'.PHP_EOL, FILE_APPEND);
         $allButtons = '';
         $list = $this->dbFunctions->getListOfMedia();
-        
+
         file_put_contents('./log.txt', json_encode($list).PHP_EOL, FILE_APPEND);
         logger::log('game =' . json_encode(constants::getGame()));
         $this->userGender = constants::getGame()->currentPlayer->gender;
@@ -86,7 +86,7 @@ class quizChoicePage
             $enabled = false;
             $buttonTemplate->setParameter('alreadyAnswered', 'alreadyAnswered');
         } else {            
-            $buttonTemplate->setParameter('alreadyAnswered', 'alreadyAnswered');
+            $buttonTemplate->setParameter('', 'alreadyAnswered');
         }
         if ($enabled) {
             $buttonTemplate->setParameter('', 'disabled');

@@ -6,181 +6,16 @@ players raw===
 
 Game saved.
 
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-
-fun compareBySortOrder= 0
-{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-
-fun compareBySortOrder= -105
-{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-
-fun compareBySortOrder= -5
-{"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105},"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-
-fun compareBySortOrder= -5
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-
-fun compareBySortOrder= -5
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-
-fun compareBySortOrder= -5
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
+router start{"setCurrentPlayer":"2"} :: 
 0
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":false,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-
-getSelectedAnswers ===
-
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
-folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
-
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
-
-players raw===
-1===
-
-readGame ===
-
-players raw===
-
-Game saved.
-
-router start{"setCurrentPlayer":"1"} :: 
-0
-
-getSelectedAnswers ===
-
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/299.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers []
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
 {"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
 
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
 
 players raw===
 1===
@@ -196,11 +31,69 @@ router start{"setCurrentPlayer":"1"} ::
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers []
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers []
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"fn":"saveChoice"} :: {"fn":"saveChoice","pathToVideo":"./media//muscle/2%20copy%202.webm"}
+
+ffff
+
+answer v: ./media//muscle/2%20copy%202.webm
+
+getSelectedAnswers ===
+
+getSelectedAnswers []
+
+saveChoice 1 {"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":1}
+
+saveChoice 2 
+
+answer saved
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
 {"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
 
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":1}
 
 players raw===
 1===
@@ -216,11 +109,66 @@ router start{"setCurrentPlayer":"2"} ::
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
-{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
 
-game ={"currentPlayerID":2,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"2"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"fn":"saveChoice"} :: {"fn":"saveChoice","pathToVideo":"./media//smile/2.webm"}
+
+ffff
+
+answer v: ./media//smile/2.webm
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+
+saveChoice 1 {"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":2}
+
+saveChoice 2 
+
+answer saved
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":2}
 
 players raw===
 1===
@@ -236,11 +184,51 @@ router start{"setCurrentPlayer":"1"} ::
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
 {"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
 
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Val","ID":2,"gender":2}}
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"3"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":3,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":2}
 
 players raw===
 1===
@@ -256,11 +244,461 @@ router start{"setCurrentPlayer":"1"} ::
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
 {"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
 
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Dan","ID":3,"gender":1},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"fn":"saveChoice"} :: {"fn":"saveChoice","pathToVideo":"./media//muscle/2.webm"}
+
+ffff
+
+answer v: ./media//muscle/2.webm
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+
+saveChoice 1 {"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+saveChoice 2 
+
+answer saved
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"2"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":2,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
 
 players raw===
 1===
@@ -276,13 +714,118 @@ router start{"setCurrentPlayer":"1"} ::
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
 {"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
 
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Val","ID":2,"gender":2},"quizID":1}
 
 players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"2"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"2"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"3"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":3,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"2"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
 1===
 
 readGame ===
@@ -296,10 +839,181 @@ router start{"setCurrentPlayer":"1"} ::
 
 getSelectedAnswers ===
 
-getSelectedAnswers [{"playerID":2,"pathToVideo":"path1","time":{"date":"2023-12-12 08:11:00.609828","timezone_type":3,"timezone":"UTC"}},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-12 21:41:29.020156","timezone_type":3,"timezone":"UTC"}}]
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
 folders= [".\/media\/\/muscle",".\/media\/\/smile"]
 {"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
 
-game ={"currentPlayerID":1,"currentPlayer":{"name":"Alex","ID":1,"gender":1}}
+game ={"currentPlayerID":1,"currentPlayer":{"name":"Dan","ID":3,"gender":1},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"3"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":3,"currentPlayer":{"name":"Alex","ID":1,"gender":1},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+Game saved.
+
+router start{"setCurrentPlayer":"4"} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}}
+
+game ={"currentPlayerID":4,"currentPlayer":{"name":"Dan","ID":3,"gender":1},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"1"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":105}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2 copy 2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock2\"\r\n    muted\r\n    onclick=\"openModal('videoBlock2')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock3\"\r\n    muted\r\n    onclick=\"openModal('videoBlock3')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5 copy.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock4\"\r\n    muted\r\n    onclick=\"openModal('videoBlock4')\">\r\n    <source \r\n        src=\".\/media\/\/muscle\/5.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"fn":"saveChoice"} :: {"fn":"saveChoice","pathToVideo":"./media//muscle/2.webm"}
+
+ffff
+
+answer v: ./media//muscle/2.webm
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+
+saveChoice 1 {"currentPlayerID":4,"currentPlayer":{"name":"Diana","ID":4,"gender":2},"quizID":1}
+
+saveChoice 2 
+
+answer saved
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-22 06:19:51.162981","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":4,"currentPlayer":{"name":"Diana","ID":4,"gender":2},"quizID":1}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{"quiz":"2"} :: 
+
+Game saved.
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-22 06:19:51.162981","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":false,"sortOrder":100}
+3"<video \r\n    class=\"videoBlock\"\r\n    width=\"100%\" \r\n    height=\"100%\" \r\n    autoplay=\"autoplay\" \r\n    loop=\"true\"\r\n    id=\"videoBlock1\"\r\n    muted\r\n    onclick=\"openModal('videoBlock1')\">\r\n    <source \r\n        src=\".\/media\/\/smile\/2.webm\" \r\n        type=\"video\/mp4\"\r\n    \/>\r\n    Your browser does not support the video tag.\r\n<\/video>"
+1===
+
+readGame ===
+
+players raw===
+
+router start{"fn":"saveChoice"} :: {"fn":"saveChoice","pathToVideo":"./media//smile/2.webm"}
+
+ffff
+
+answer v: ./media//smile/2.webm
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-22 06:19:51.162981","timezone_type":3,"timezone":"UTC"},"quizID":1}]
+
+saveChoice 1 {"currentPlayerID":4,"currentPlayer":{"name":"Diana","ID":4,"gender":2},"quizID":2}
+
+saveChoice 2 
+
+answer saved
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-22 06:19:51.162981","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-22 06:20:15.431132","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":4,"currentPlayer":{"name":"Diana","ID":4,"gender":2},"quizID":2}
+
+players raw===
+1===
+
+readGame ===
+
+players raw===
+
+router start{} :: 
+0
+
+getSelectedAnswers ===
+
+getSelectedAnswers [{"playerID":1,"pathToVideo":".\/media\/\/muscle\/2%20copy%202.webm","time":{"date":"2023-12-20 21:19:49.857120","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":2,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-20 21:20:11.837281","timezone_type":3,"timezone":"UTC"},"quizID":2},{"playerID":2,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-21 11:44:43.243228","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/muscle\/2.webm","time":{"date":"2023-12-22 06:19:51.162981","timezone_type":3,"timezone":"UTC"},"quizID":1},{"playerID":4,"pathToVideo":".\/media\/\/smile\/2.webm","time":{"date":"2023-12-22 06:20:15.431132","timezone_type":3,"timezone":"UTC"},"quizID":2}]
+folders= [".\/media\/\/muscle",".\/media\/\/smile"]
+{"2":{"quizID":2,"description":"What do you prefer smile ?","images":[".\/media\/\/smile\/2.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":100},"1":{"quizID":1,"description":"What do you prefer muscle111?","images":[".\/media\/\/muscle\/2 copy 2.webm",".\/media\/\/muscle\/2.webm",".\/media\/\/muscle\/5 copy.webm",".\/media\/\/muscle\/5.webm"],"forHim":true,"forHer":true,"group":"First sight","colorButton":"red","alreadyAnswered":true,"sortOrder":105}}
+
+game ={"currentPlayerID":4,"currentPlayer":{"name":"Diana","ID":4,"gender":2},"quizID":2}
 
 players raw===

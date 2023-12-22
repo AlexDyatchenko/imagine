@@ -30,26 +30,26 @@ class router
 
         // Example: Accessing individual parameters
         $outputProcessor = new outputProcessor('index.html');
-        if (property_exists($queryObject, 'player')) {
-            $game = constants::getGame();
+        $game = constants::getGame();
+        $db = new dbFunctions;
+        if (property_exists($queryObject, 'player')) {            
             $game->currentPlayerID = constants::getGame()->currentPlayerID;
-            $db = new dbFunctions;
             $players = $db->getListOfPlayers();
             $game->currentGender = $players[$game->currentPlayerID]->gender;
-            $db = new dbFunctions;
             $db->saveGame();
         }
         if (property_exists($queryObject, 'setCurrentPlayer')) {
-            $game = constants::getGame();
             $game->currentPlayerID = (int)$queryObject->setCurrentPlayer;
-            $db = new dbFunctions;
             $db->saveGame();
         }
         $entityBody = file_get_contents('php://input');
         $requestBody = json_decode($entityBody);
         logger::log('router start' . json_encode($queryObject) . ' :: ' . $entityBody);
         if (property_exists($queryObject, 'quiz')) {
+            $game->quizID = $queryObject->quiz;
+            $db->saveGame();
             $page = new videoQuizPage($queryObject->quiz);
+            // exit()
         } elseif (property_exists($queryObject, 'fn')) {
             $page = new apiResponse();
             if ($queryObject->fn === 'updatePlayer') {
@@ -74,6 +74,8 @@ class router
                 exit;
             }
         } else {
+            // $game->quizID = 0;
+            // $db->saveGame();
             require_once './classes/quizChoicePage.php';
             $page = new quizChoicePage();
         }
@@ -81,3 +83,9 @@ class router
         echo $outputProcessor->echo();
     }
 }
+
+
+#localhost
+#random button
+#video on the background
+# sound for selected video +

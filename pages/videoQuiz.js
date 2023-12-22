@@ -12,6 +12,7 @@ function openModal(videoBlockID) {
     let v = document.querySelector('#' + videoBlockID).innerHTML; 
     let videoElement = document.querySelector('.videoModal');
     videoElement.innerHTML = v;
+    videoElement.muted = false;
     videoElement.load();
 
     let modalElement = document.querySelector('.answerYes');
@@ -32,6 +33,8 @@ function openModal(videoBlockID) {
 }
 
 function closeModal() {
+    let videoElement = document.querySelector('.videoModal');
+    videoElement.muted = true;
     document.getElementById('myModal').style.display = 'none';
 }
 
@@ -41,7 +44,7 @@ function saveAnswer(evt, videoBlockID) {
     document.querySelector('.modal-content').classList.add('yes');
     document.querySelector('span.loader.stop').classList.remove('stop');
     
-    let scr =  document.querySelector('#myModal > div > video > source').src.replace("http://localhost",".");
+    let scr =  document.querySelector('#myModal > div > video > source').src.replace("http://" + window.location.hostname,".");
     const requestBody = {
         fn : 'saveChoice',
         pathToVideo: scr

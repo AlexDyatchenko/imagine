@@ -1,20 +1,52 @@
 [
     {
-        "playerID": 2,
-        "pathToVideo": "path1",
+        "playerID": 1,
+        "pathToVideo": ".\/media\/\/muscle\/2%20copy%202.webm",
         "time": {
-            "date": "2023-12-12 08:11:00.609828",
+            "date": "2023-12-20 21:19:49.857120",
             "timezone_type": 3,
             "timezone": "UTC"
-        }
+        },
+        "quizID": 1
+    },
+    {
+        "playerID": 2,
+        "pathToVideo": ".\/media\/\/smile\/2.webm",
+        "time": {
+            "date": "2023-12-20 21:20:11.837281",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        },
+        "quizID": 2
     },
     {
         "playerID": 2,
         "pathToVideo": ".\/media\/\/muscle\/2.webm",
         "time": {
-            "date": "2023-12-12 21:41:29.020156",
+            "date": "2023-12-21 11:44:43.243228",
             "timezone_type": 3,
             "timezone": "UTC"
-        }
+        },
+        "quizID": 1
+    },
+    {
+        "playerID": 4,
+        "pathToVideo": ".\/media\/\/muscle\/2.webm",
+        "time": {
+            "date": "2023-12-22 06:19:51.162981",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        },
+        "quizID": 1
+    },
+    {
+        "playerID": 4,
+        "pathToVideo": ".\/media\/\/smile\/2.webm",
+        "time": {
+            "date": "2023-12-22 06:20:15.431132",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        },
+        "quizID": 2
     }
 ]
