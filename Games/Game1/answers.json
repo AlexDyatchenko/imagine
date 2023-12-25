@@ -1,52 +1,42 @@
 [
     {
         "playerID": 1,
-        "pathToVideo": ".\/media\/\/muscle\/2%20copy%202.webm",
+        "pathToVideo": ".\/images\/\/PlaceToBe\/100.webm",
         "time": {
-            "date": "2023-12-20 21:19:49.857120",
+            "date": "2023-12-24 08:37:04.289243",
             "timezone_type": 3,
             "timezone": "UTC"
         },
-        "quizID": 1
+        "quizID": 17
+    },
+    {
+        "playerID": 1,
+        "pathToVideo": ".\/images\/\/Poses%201\/109.webm",
+        "time": {
+            "date": "2023-12-25 02:28:17.389548",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        },
+        "quizID": 34
+    },
+    {
+        "playerID": 1,
+        "pathToVideo": ".\/images\/\/fmf%20poses\/69.webm",
+        "time": {
+            "date": "2023-12-25 02:32:45.156436",
+            "timezone_type": 3,
+            "timezone": "UTC"
+        },
+        "quizID": 30
     },
     {
         "playerID": 2,
-        "pathToVideo": ".\/media\/\/smile\/2.webm",
+        "pathToVideo": ".\/images\/\/romantic\/139.webm",
         "time": {
-            "date": "2023-12-20 21:20:11.837281",
+            "date": "2023-12-25 02:48:42.840436",
             "timezone_type": 3,
             "timezone": "UTC"
         },
-        "quizID": 2
-    },
-    {
-        "playerID": 2,
-        "pathToVideo": ".\/media\/\/muscle\/2.webm",
-        "time": {
-            "date": "2023-12-21 11:44:43.243228",
-            "timezone_type": 3,
-            "timezone": "UTC"
-        },
-        "quizID": 1
-    },
-    {
-        "playerID": 4,
-        "pathToVideo": ".\/media\/\/muscle\/2.webm",
-        "time": {
-            "date": "2023-12-22 06:19:51.162981",
-            "timezone_type": 3,
-            "timezone": "UTC"
-        },
-        "quizID": 1
-    },
-    {
-        "playerID": 4,
-        "pathToVideo": ".\/media\/\/smile\/2.webm",
-        "time": {
-            "date": "2023-12-22 06:20:15.431132",
-            "timezone_type": 3,
-            "timezone": "UTC"
-        },
-        "quizID": 2
+        "quizID": 49
     }
 ]

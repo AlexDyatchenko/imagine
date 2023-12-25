@@ -17,7 +17,7 @@ require_once './classes/game.php';
 require_once './classes/videoQuizPage.php';
 require_once './classes/answer.php';
 
-$GLOBALS['mediaFolder'] = './media/';
+$GLOBALS['mediaFolder'] = './images/';
 // $GLOBALS['mediaFolder'] = './mediaTemp/';
 // $f = is_dir($GLOBALS['mediaFolder']) ? 'true' : 'false';
 // echo 'bool = ' . $f;

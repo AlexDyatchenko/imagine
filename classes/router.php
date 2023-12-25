@@ -69,7 +69,7 @@ class router
             ) {
                 logger::log('ffff');
                 $db = new dbFunctions;
-                $db->saveChoice($requestBody->pathToVideo);
+                $db->saveChoice($requestBody->pathToVideo);                
                 echo '{"response": "answer saved"}';
                 exit;
             }

@@ -9,38 +9,49 @@ require_once './classes/outputProcessor.php';
 class quizChoicePage
 {
     private dbFunctions $dbFunctions;
-    private genders $userGender; 
+    private genders $userGender;
 
     public function __construct()
     {
-        $this->dbFunctions = new dbFunctions;        
+        $this->dbFunctions = new dbFunctions;
     }
-    
-    public function generatePage() : string
+
+    public function generatePage(): string
     {
-        file_put_contents('./log.txt', '0'.PHP_EOL, FILE_APPEND);
+        file_put_contents('./log.txt', '0' . PHP_EOL, FILE_APPEND);
         $allButtons = '';
         $list = $this->dbFunctions->getListOfMedia();
-
-        file_put_contents('./log.txt', json_encode($list).PHP_EOL, FILE_APPEND);
-        logger::log('game =' . json_encode(constants::getGame()));
-        $this->userGender = constants::getGame()->currentPlayer->gender;
-        $allButtons = '';        
-        foreach ($list as $media) {            
-            $button = $this->addButtonForMedia($media);
+        logger::log('in Quiz page count($list) = ' . count($list));
+        // file_put_contents('./log.txt', json_encode($list).PHP_EOL, FILE_APPEND);
+        // logger::log('game =' . json_encode(constants::getGame()));
+        $game = constants::getGame();
+        $this->userGender = $game->currentPlayer->gender;
+        $allButtons = '';
+        foreach ($list as $media) {
+            $button = $this->addButtonForMedia($media, $game);
+            // logger::log('$button = ' . json_encode($button));
             // file_put_contents('./log.txt', (string)$media->quizID . $button .PHP_EOL, FILE_APPEND);
             $allButtons .= $button;
-        }  
+        }
         // file_put_contents('./log.txt', 'button = ' . $allButtons.PHP_EOL, FILE_APPEND);
-        
+
         $quizChoicePage = new outputProcessor('pages/quizChoicePage.html');
         $quizChoicePage->setParameter($allButtons);
         $quizChoicePage->setParameter($this->generatePlayers(), 'players');
 
+        $backgroundVideoPath = 'images/27708422a.webm';
+        logger::log('getLastAnsweredMadiaPath = ' . $game->getLastAnsweredMadiaPath());
+        logger::log('getLastAnsweredMadiaPathOnly = ' . $game->lastAnsweredMediaPath);
+        if ($game->getLastAnsweredMadiaPath() !== '') {
+            $backgroundVideoPath = $game->getLastAnsweredMadiaPath();
+        }
+        $quizChoicePage->setParameter($backgroundVideoPath, 'backgroundVideoPath');
+
         return $quizChoicePage->echo();
     }
 
-    public function generatePlayers(): string {
+    public function generatePlayers(): string
+    {
         $playersBlock = new outputProcessor('pages/players.html');
         $playersArray = $this->dbFunctions->getListOfPlayers();
         // logger::log('players===' . json_encode($playersArray));
@@ -56,7 +67,7 @@ class quizChoicePage
             $playerHTML->setParameter($player->ID, 'playerID');
             $playerHTML->setParameter($player->name, 'playerName');
             if ($currentPlayerID === $player->ID) {
-                $playerHTML->setParameter('checked', 'currentPlayer');    
+                $playerHTML->setParameter('checked', 'currentPlayer');
             } else {
                 $playerHTML->setParameter('', 'currentPlayer');
             }
@@ -69,24 +80,33 @@ class quizChoicePage
         return $playersBlock->echo();
     }
 
-    public function addButtonForMedia(folderMedia $mediaItem): string
+    public function addButtonForMedia(folderMedia $mediaItem, game $game): string
     {
         if (file_exists('./pages/mediaButton.html') === false) {
+            logger::log('skipping folder ');
             return ''; //skipping folder!
         }
         $buttonTemplate = new outputProcessor('./pages/mediaButton.html');
-        $buttonTemplate->setParameter($mediaItem->description);
+        $buttonTemplate->setParameter($mediaItem->buttonCaption);
         $buttonTemplate->setParameter($mediaItem->quizID, 'quizID');
         $enabled = true;
-        if (($this->userGender === genders::male && $mediaItem->forHim === false) 
-        || ($this->userGender === genders::female && $mediaItem->forHer === false)) {
+        if (($this->userGender === genders::male && $mediaItem->forHim === false)
+            || ($this->userGender === genders::female && $mediaItem->forHer === false)
+        ) {
             $enabled = false;
         }
-        if ($mediaItem->alreadyAnswered){
+        if ($mediaItem->alreadyAnswered) {
             $enabled = false;
             $buttonTemplate->setParameter('alreadyAnswered', 'alreadyAnswered');
-        } else {            
+        } else {
             $buttonTemplate->setParameter('', 'alreadyAnswered');
+        }
+
+        if ($mediaItem->quizID === $game->lastAnsweredQuizID()) {
+            $enabled = false;
+            $buttonTemplate->setParameter('lastAnswered', 'lastAnswered');
+        } else {
+            $buttonTemplate->setParameter('', 'lastAnswered');
         }
         if ($enabled) {
             $buttonTemplate->setParameter('', 'disabled');

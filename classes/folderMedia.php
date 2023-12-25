@@ -8,6 +8,8 @@ class folderMedia
 {
     public int       $quizID = 0;
     public string    $description = '';
+    public string    $buttonCaption = '';
+    public string    $question = '';
     public array     $images = []; //as imageInfo objects
     public bool      $forHim = false;
     public bool      $forHer = false;

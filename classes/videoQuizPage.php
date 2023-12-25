@@ -11,7 +11,8 @@ class videoQuizPage
         $dbFunctions = new dbFunctions;
         $list = $dbFunctions->getListOfMedia();
         if (key_exists($quizID, $list) === false) {
-            file_put_contents('./log.txt', 'no image !!!' . PHP_EOL, FILE_APPEND);
+
+            file_put_contents('./log.txt', "no $quizID = $quizID in the list " . json_encode($list) . PHP_EOL, FILE_APPEND);
             return;
         }
         $this->media = $list[$quizID];
@@ -23,8 +24,9 @@ class videoQuizPage
         if (isset($this->media) === false) {
             return 'error!';
         }
-        $videoQuiz = new outputProcessor('./pages/videoQuiz.html');        
-        $videoQuiz->setParameter($this->media->description, 'Description');
+        $videoQuiz = new outputProcessor('./pages/videoQuiz.html');
+        $videoQuiz->setParameter($this->media->question, 'question');
+        // logger::log('this media question = ' . $this->media->question);
         // $video1Row = new outputProcessor('./pages/video1Row.html');
 
         $videos = '';

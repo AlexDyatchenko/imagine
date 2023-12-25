@@ -1,2 +1,8 @@
 /Media
-/log.txt
+/media/*
+/images
+/images/*
+Games/Game1/game.json
+Games/Game1/answers.json
+log.txt
+Games/Game1/quizes.json
