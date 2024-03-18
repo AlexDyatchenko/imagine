@@ -1,12 +1,12 @@
 {
-    "currentPlayerID": 2,
+    "currentPlayerID": 1,
     "currentPlayer": {
         "name": "Alex",
         "ID": 1,
         "gender": 1
     },
-    "quizID": 49,
-    "lastAnsweredQuizID": 49,
-    "lastAnsweredMediaPath": ".\/images\/\/romantic\/139.webm",
-    "lastAnsweredPlayerID": 2
+    "quizID": 0,
+    "lastAnsweredQuizID": 0,
+    "lastAnsweredMediaPath": "",
+    "lastAnsweredPlayerID": 0
 }

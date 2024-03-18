@@ -10,6 +10,8 @@ class folderMedia
     public string    $description = '';
     public string    $buttonCaption = '';
     public string    $question = '';
+    public string    $questionForHim = '';
+    public string    $questionForHer = '';
     public array     $images = []; //as imageInfo objects
     public bool      $forHim = false;
     public bool      $forHer = false;

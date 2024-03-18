@@ -2,6 +2,8 @@
 
 namespace imagine;
 
+use constants;
+
 class videoQuizPage
 {
     public folderMedia $media;
@@ -25,7 +27,15 @@ class videoQuizPage
             return 'error!';
         }
         $videoQuiz = new outputProcessor('./pages/videoQuiz.html');
-        $videoQuiz->setParameter($this->media->question, 'question');
+        $game = constants::getGame();
+        $userGender = $game->currentPlayer->gender;
+        if ($userGender === genders::female && $this->media->questionForHer !== '') {
+            $videoQuiz->setParameter($this->media->questionForHer, 'question');
+        } elseif ($userGender === genders::male && $this->media->questionForHim !== '') {
+            $videoQuiz->setParameter($this->media->questionForHim, 'question');
+        } else {
+            $videoQuiz->setParameter($this->media->question, 'question');
+        }        
         // logger::log('this media question = ' . $this->media->question);
         // $video1Row = new outputProcessor('./pages/video1Row.html');
 
