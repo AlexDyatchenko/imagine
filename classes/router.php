@@ -32,7 +32,7 @@ class router
         $outputProcessor = new outputProcessor('index.html');
         $game = constants::getGame();
         $db = new dbFunctions;
-        if (property_exists($queryObject, 'player')) {            
+        if (property_exists($queryObject, 'player')) {
             $game->currentPlayerID = constants::getGame()->currentPlayerID;
             $players = $db->getListOfPlayers();
             $game->currentGender = $players[$game->currentPlayerID]->gender;
@@ -40,6 +40,11 @@ class router
         }
         if (property_exists($queryObject, 'setCurrentPlayer')) {
             $game->currentPlayerID = (int)$queryObject->setCurrentPlayer;
+            $players = $db->getListOfPlayers();
+            $game->currentGender = $players[$game->currentPlayerID]->gender;
+            $game->currentPlayer = $players[$game->currentPlayerID];
+            logger::log('currentPlayerID = ' . $game->currentPlayerID);
+            logger::log('currentPlayer name = ' . $game->currentPlayer->name);
             $db->saveGame();
         }
         $entityBody = file_get_contents('php://input');
@@ -69,7 +74,7 @@ class router
             ) {
                 logger::log('ffff');
                 $db = new dbFunctions;
-                $db->saveChoice($requestBody->pathToVideo);                
+                $db->saveChoice($requestBody->pathToVideo);
                 echo '{"response": "answer saved"}';
                 exit;
             }
@@ -85,7 +90,7 @@ class router
 }
 
 
-#localhost
+#localhost + 
 #random button
-#video on the background
+#video on the background +
 # sound for selected video +

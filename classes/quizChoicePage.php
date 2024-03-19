@@ -26,6 +26,14 @@ class quizChoicePage
         // logger::log('game =' . json_encode(constants::getGame()));
         $game = constants::getGame();
         $this->userGender = $game->currentPlayer->gender;
+        logger::log('current player = ' . $game->currentPlayer->name);
+        if ($this->userGender == genders::female) {
+            logger::log('user gender = female');
+        } elseif ($this->userGender == genders::male) {
+            logger::log('user gender = male');
+        } else {
+            logger::log('user gender = unknown');
+        }
         $allButtons = '';
         foreach ($list as $media) {
             $button = $this->addButtonForMedia($media, $game);

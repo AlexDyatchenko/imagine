@@ -51,7 +51,7 @@ class dbFunctions
         foreach ($list as $value) {
             if ($value->quizID > $maxID) $maxID = $value->quizID;
             if (key_exists($value->quizID, $listSorted)) {
-                logger::log('ERROR: quizID doublicate: ' . $value->quizID);
+                logger::log('ERROR: quizID duplicate: ' . $value->quizID);
                 continue;
             }
             $listSorted[$value->quizID] = $value;
@@ -85,6 +85,12 @@ class dbFunctions
         $objctFromFile = json_decode($fileContent);
         $object->description = $objctFromFile->description;
         $object->question    = $objctFromFile->question;
+        if (property_exists($objctFromFile, 'questionForHim')) {
+            $object->questionForHim    = $objctFromFile->questionForHim;
+        }
+        if (property_exists($objctFromFile, 'questionForHer')) {
+            $object->questionForHer    = $objctFromFile->questionForHer;
+        }
         $object->buttonCaption = $objctFromFile->buttonCaption;
         $object->quizID      = $objctFromFile->quizID;
         $object->forHim      = $objctFromFile->forHim;
@@ -106,7 +112,7 @@ class dbFunctions
                 $list[] = $newPlayer;
             }
         } else {
-            logger::log('players raw===');
+            // logger::log('players raw===');
             $fileContent = file_get_contents($this->playersFileName);
 
             $listRaw = json_decode($fileContent);
@@ -133,6 +139,7 @@ class dbFunctions
         $fileContent = file_get_contents($this->gameFileName);
         $objectFromFile = json_decode($fileContent);
         $game = new game;
+        $GLOBALS['game'] = $game;
         try {
             if (property_exists($objectFromFile, 'currentPlayerID')) {
                 $game->currentPlayerID = $objectFromFile->currentPlayerID;
