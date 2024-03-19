@@ -117,7 +117,7 @@ span.loader.stop{
     box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     margin-bottom: 1rem;
-    text-shadow: 0 0 1px #888;
+    text-shadow: 0 0 1px #000;
     color: white;
     border: 1px solid #999;
 }
@@ -130,7 +130,7 @@ span.loader.stop{
     transition: transform 0.2s;
     color: white;
     border-color: white;
-    text-shadow: 0 0 1px #444;
+    text-shadow: 0 0 1px #000;
     border: 1px solid #ccc;
 }
 label.btn.btn-outline-primary {
@@ -142,10 +142,14 @@ label.btn.btn-outline-primary {
     border-color: rgb(0, 197, 0);
     background-color: rgba(132, 255, 132, 0.4);
     box-shadow: 0em 0em 0em;
-    color:rgb(200, 200, 200);
+    color:rgb(220, 255, 220);
+}
+.pageButton.btn.btn-outline-primary.alreadyAnsweredBySomeone {
+    border-color: rgb(0, 255, 0);
 }
 .pageButton.btn.btn-outline-primary.lastAnswered {
     background-color: rgba(0, 255, 0, 0.66);
     border-color: rgb(0, 255, 0);
-    color:rgb(200, 255, 200);
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 1px #000;
 }

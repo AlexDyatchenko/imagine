@@ -17,4 +17,5 @@ class folderMedia
     public string    $colorButton = '';
     public bool      $alreadyAnswered = false;
     public int       $sortOrder = 100;
+    public bool      $alreadyAnsweredBySomeone = false;
 }

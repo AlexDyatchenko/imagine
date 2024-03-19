@@ -200,9 +200,16 @@ class dbFunctions
         int $playerID
     ): folderMedia {
         foreach ($answers as $answer) {
-            if ($mediaObject->quizID === $answer->quizID && $answer->playerID === $playerID) {
-                $mediaObject->alreadyAnswered = true;
-                return $mediaObject;
+            logger::log('check that ' . $mediaObject->quizID . ' = ' . $answer->quizID);
+            logger::log('check that player ' . $playerID . ' = ' . $answer->playerID);
+
+            if ($mediaObject->quizID === $answer->quizID) {
+                $mediaObject->alreadyAnsweredBySomeone = true;
+                if ($answer->playerID === $playerID) {
+                    $mediaObject->alreadyAnswered = true;
+                    logger::log("quizID " . $mediaObject->quizID . ' is answered');
+                    return $mediaObject;
+                }
             }
         }
         return $mediaObject;

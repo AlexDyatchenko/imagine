@@ -94,10 +94,15 @@ class quizChoicePage
             || ($this->userGender === genders::female && $mediaItem->forHer === false)
         ) {
             $enabled = false;
+            logger::log("quiz disabled by gender " . $mediaItem->quizID);
         }
         if ($mediaItem->alreadyAnswered) {
             $enabled = false;
             $buttonTemplate->setParameter('alreadyAnswered', 'alreadyAnswered');
+            logger::log('Already answered web: ' . $mediaItem->quizID);
+        } elseif ($mediaItem->alreadyAnsweredBySomeone) {
+            $buttonTemplate->setParameter('alreadyAnsweredBySomeone', 'alreadyAnswered');
+            logger::log('Already answered by semoone web: ' . $mediaItem->quizID);
         } else {
             $buttonTemplate->setParameter('', 'alreadyAnswered');
         }
