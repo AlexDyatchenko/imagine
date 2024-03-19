@@ -51,7 +51,7 @@ class dbFunctions
         foreach ($list as $value) {
             if ($value->quizID > $maxID) $maxID = $value->quizID;
             if (key_exists($value->quizID, $listSorted)) {
-                logger::log('ERROR: quizID duplicate: ' . $value->quizID);
+                logger::log('ERROR: quizID duplicate: ' . $value->quizID . $value->question);
                 continue;
             }
             $listSorted[$value->quizID] = $value;
@@ -165,7 +165,7 @@ class dbFunctions
 
     function getAnswers(): array
     {
-        logger::log('getSelectedAnswers ===');
+        // logger::log('getSelectedAnswers ===');
         if (file_exists($this->answersFileName)) {
             $fileContent = file_get_contents($this->answersFileName);
             $listRaw = json_decode($fileContent);
@@ -207,8 +207,8 @@ class dbFunctions
         int $playerID
     ): folderMedia {
         foreach ($answers as $answer) {
-            logger::log('check that ' . $mediaObject->quizID . ' = ' . $answer->quizID);
-            logger::log('check that player ' . $playerID . ' = ' . $answer->playerID);
+            // logger::log('check that ' . $mediaObject->quizID . ' = ' . $answer->quizID);
+            // logger::log('check that player ' . $playerID . ' = ' . $answer->playerID);
 
             if ($mediaObject->quizID === $answer->quizID) {
                 $mediaObject->alreadyAnsweredBySomeone = true;

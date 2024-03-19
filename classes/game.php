@@ -14,18 +14,32 @@ class game
 
     public function getLastAnsweredMadiaPath() : string
     {
-        if ($this->lastAnsweredPlayerID === $this->currentPlayerID) {
-            return $this->lastAnsweredMediaPath;
+        $lastAnsweredMadiaPath = '';
+        $db = new dbFunctions;
+        $answers = $db->getAnswers(); 
+        foreach ($answers as $answer) {
+            if ($answer->playerID === $this->currentPlayerID) {
+                $lastAnsweredMadiaPath = $answer->pathToVideo;
+            }
         }
-        return '';
+        // if ($this->lastAnsweredPlayerID === $this->currentPlayerID) {
+        //     return $this->lastAnsweredMediaPath;
+        // }
+        return $lastAnsweredMadiaPath;
     }
 
     public function lastAnsweredQuizID() : int
     {
-        if ($this->lastAnsweredQuizID !== 0 and $this->lastAnsweredPlayerID === $this->currentPlayerID) {
-            return $this->lastAnsweredQuizID;
+
+        $this->lastAnsweredQuizID = 0;
+        $db = new dbFunctions;
+        $answers = $db->getAnswers(); 
+        foreach ($answers as $answer) {
+            if ($answer->playerID === $this->currentPlayerID) {
+                $this->lastAnsweredQuizID = $answer->quizID;
+            }
         }
-        return 0;
+        return $this->lastAnsweredQuizID;
     }
 }
 

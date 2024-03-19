@@ -9,7 +9,7 @@ class logger
     public static function log(string $text) : void
     {
         file_put_contents('./log.txt', 
-        PHP_EOL . $text .PHP_EOL, 
+        $text .PHP_EOL, 
         FILE_APPEND);
     }
 }
