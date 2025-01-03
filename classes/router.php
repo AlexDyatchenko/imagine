@@ -68,6 +68,9 @@ class router
                 $quizChoicePage = new quizChoicePage;
                 echo $quizChoicePage->generatePlayers();
                 exit;
+            } elseif ($queryObject->fn === 'getPlayersHtml') {
+                $page = new apiResponse();
+                
             } elseif (
                 $queryObject->fn === 'saveChoice' ||
                 (is_object($requestBody) && property_exists($requestBody, 'fn') && $requestBody->fn = 'saveChoice')
