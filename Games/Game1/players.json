@@ -1,6 +1,6 @@
 [
     {"name":"Alex", "ID":1, "gender":1},
     {"name":"Valery", "ID":2, "gender":2},
-    {"name":"Steve", "ID":3, "gender":1},
-    {"name":"Sarah", "ID":4, "gender":2}
+    {"name":"Player3", "ID":3, "gender":1},
+    {"name":"Player4", "ID":4, "gender":2}
 ]

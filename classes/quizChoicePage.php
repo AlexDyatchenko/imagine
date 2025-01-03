@@ -47,7 +47,10 @@ class quizChoicePage
         $quizChoicePage->setParameter($allButtons);
         $quizChoicePage->setParameter($this->generatePlayers(), 'players');
 
-        $backgroundVideoPath = 'images/27708422a.webm';
+        $backgroundVideoPath = 'media/27708422a.webm';
+        if (!file_exists($backgroundVideoPath)) {
+            $backgroundVideoPath = 'mediaTemp/palm.mp4';
+        }
         logger::log('getLastAnsweredMadiaPath = ' . $game->getLastAnsweredMadiaPath());
         logger::log('getLastAnsweredMadiaPathOnly = ' . $game->lastAnsweredMediaPath);
         if ($game->getLastAnsweredMadiaPath() !== '') {

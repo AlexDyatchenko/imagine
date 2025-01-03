@@ -3,10 +3,9 @@ services:
     image: php:apache
     ports:
       - 80:80
-    volumes:
-      # - c:\Users\Administrator\Settings\Data\Media\imagine\:/var/www/html/media
+    volumes:      
       # - C:\Users\video\Pictures\:/var/www/html/media
-      - ./MediaTemp\:/var/www/html/media
+      - ./MediaTemp/:/var/www/html/media
       - ./:/var/www/html/
     expose:
       - 9000
